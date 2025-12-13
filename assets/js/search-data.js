@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Were It to Benefit My Country, I Would Lay Down My Life!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
