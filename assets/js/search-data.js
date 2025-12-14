@@ -374,7 +374,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/pd-multiplexing/";
-            },},{id: "news-one-paper-accepted-to-hpca-2026",
+            },},{id: "news-serving-as-the-web-chair-for-icpp-2026-submission-details-are-available-in-the-call-for-papers",
+          title: 'Serving as the Web Chair for ICPP 2026. Submission details are available in...',
+          description: "",
+          section: "News",},{id: "news-one-paper-accepted-to-hpca-2026",
           title: 'One paper accepted to HPCA 2026',
           description: "",
           section: "News",},{id: "news-two-paper-accepted-to-nsdi-2026",
