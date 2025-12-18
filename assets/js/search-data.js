@@ -370,7 +370,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-pd-multiplexing-has-been-merged-into-sglang",
-          title: 'PD-Multiplexing has been merged into SGLang',
+          title: 'PD-Multiplexing has been merged into SGLang.',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/pd-multiplexing/";
@@ -380,8 +380,8 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-accepted-to-hpca-2026",
           title: 'One paper accepted to HPCA 2026.',
           description: "",
-          section: "News",},{id: "news-two-paper-accepted-to-nsdi-2026",
-          title: 'Two paper accepted to NSDI 2026.',
+          section: "News",},{id: "news-two-papers-accepted-to-nsdi-2026",
+          title: 'Two papers accepted to NSDI 2026.',
           description: "",
           section: "News",},{id: "news-honored-to-be-selected-for-the-ccf-doctoral-dissertation-incentive-program-2025",
           title: 'Honored to be selected for the CCF Doctoral Dissertation Incentive Program 2025.',
