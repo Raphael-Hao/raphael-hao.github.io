@@ -373,7 +373,7 @@ ninja.data = [{
           title: 'PD-Multiplexing has been merged into SGLang.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2025-09-28-pd-multiplexing/";
+              window.location.href = "/news/2025-09-28-pd-mux/";
             },},{id: "news-serving-as-the-web-chair-for-icpp-2026-submission-details-are-available-in-the-call-for-papers",
           title: 'Serving as the Web Chair for ICPP 2026. Submission details are available in...',
           description: "",
