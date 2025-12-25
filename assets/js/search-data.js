@@ -74,22 +74,22 @@ ninja.data = [{
           title: 'MLSys Preliminary',
           description: "The basics of machine learning systems",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/preliminary-mlsys/";
+              window.location.href = "/projects/mlsys-preliminary/";
             },},{id: "projects-gpu-and-cuda-programming",
           title: 'GPU and CUDA Programming',
           description: "Learn the fundamentals of GPU architecture and CUDA programming",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/preliminary-mlsys/gpu-cuda/";
+              window.location.href = "/projects/mlsys-preliminary/gpu-cuda/";
             },},{id: "projects-programming-framework",
           title: 'Programming Framework',
           description: "Explore popular ML frameworks like PyTorch and TensorFlow",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/preliminary-mlsys/programming-framework/";
+              window.location.href = "/projects/mlsys-preliminary/programming-framework/";
             },},{id: "projects-training-and-inference",
           title: 'Training and Inference',
           description: "Understand the training and inference pipeline",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/preliminary-mlsys/training-inference/";
+              window.location.href = "/projects/mlsys-preliminary/training-inference/";
             },},{
         id: 'social-email',
         title: 'email',
