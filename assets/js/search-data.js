@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-conference-deadlines-i-39-m-tracking",
+          title: "Conference Deadlines I&#39;m Tracking",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ddls/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Were It to Benefit My Country, I Would Lay Down My Life!",
@@ -30,14 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-ddls",
-              title: "DDLs",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/ddls/";
-              },
-            },{id: "post-a-post-with-formatting-and-links",
+        },{id: "post-a-post-with-formatting-and-links",
         
           title: "a post with formatting and links",
         
@@ -70,7 +70,27 @@ ninja.data = [{
           section: "News",},{id: "news-honored-to-be-selected-for-the-ccf-doctoral-dissertation-incentive-program-2025",
           title: 'Honored to be selected for the CCF Doctoral Dissertation Incentive Program 2025.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-mlsys-preliminary",
+          title: 'MLSys Preliminary',
+          description: "The basics of machine learning systems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/preliminary-mlsys/";
+            },},{id: "projects-gpu-and-cuda-programming",
+          title: 'GPU and CUDA Programming',
+          description: "Learn the fundamentals of GPU architecture and CUDA programming",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/preliminary-mlsys/gpu-cuda/";
+            },},{id: "projects-programming-framework",
+          title: 'Programming Framework',
+          description: "Explore popular ML frameworks like PyTorch and TensorFlow",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/preliminary-mlsys/programming-framework/";
+            },},{id: "projects-training-and-inference",
+          title: 'Training and Inference',
+          description: "Understand the training and inference pipeline",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/preliminary-mlsys/training-inference/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
