@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-conference-deadlines-i-39-m-tracking",
-          title: "Conference Deadlines I&#39;m Tracking",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/ddls/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "Were It to Benefit My Country, I Would Lay Down My Life!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-conference-deadlines-i-39-m-tracking",
+          title: "Conference Deadlines I&#39;m Tracking",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ddls/";
           },
         },{id: "post-a-post-with-formatting-and-links",
         
