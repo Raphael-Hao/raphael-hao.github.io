@@ -75,6 +75,11 @@ ninja.data = [{
           description: "The basics of machine learning systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mlsys-preliminary/";
+            },},{id: "projects-gpu-architecture",
+          title: 'GPU Architecture',
+          description: "Learn the fundamentals of GPU architecture",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mlsys-preliminary/gpu-architecture/";
             },},{id: "projects-gpu-and-cuda-programming",
           title: 'GPU and CUDA Programming',
           description: "Learn the fundamentals of GPU architecture and CUDA programming",
