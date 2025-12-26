@@ -70,7 +70,12 @@ ninja.data = [{
           section: "News",},{id: "news-honored-to-be-selected-for-the-ccf-doctoral-dissertation-incentive-program-2025",
           title: 'Honored to be selected for the CCF Doctoral Dissertation Incentive Program 2025.',
           description: "",
-          section: "News",},{id: "projects-mlsys-preliminary",
+          section: "News",},{id: "projects-gpu-dissecting",
+          title: 'GPU Dissecting',
+          description: "Dissecting GPU architectures to understand the links between hardware and software",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gpu-dissecting/";
+            },},{id: "projects-mlsys-preliminary",
           title: 'MLSys Preliminary',
           description: "The basics of machine learning systems",
           section: "Projects",handler: () => {
@@ -95,6 +100,11 @@ ninja.data = [{
           description: "Understand the training and inference pipeline",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mlsys-preliminary/training-inference/";
+            },},{id: "projects-pd-multiplexing",
+          title: 'PD-Multiplexing',
+          description: "A new paradigm for serving LLMs with SLO guarantees",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pd-multiplexing/";
             },},{
         id: 'social-email',
         title: 'email',
