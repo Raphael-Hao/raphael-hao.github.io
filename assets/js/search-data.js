@@ -105,6 +105,11 @@ ninja.data = [{
           description: "A new paradigm for serving LLMs with SLO guarantees",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pd-multiplexing/";
+            },},{id: "projects-profiling",
+          title: 'Profiling',
+          description: "Offline profiling for latency modeling",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pd-multiplexing/profiling/";
             },},{
         id: 'social-email',
         title: 'email',
