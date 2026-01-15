@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://raphael-hao.github.io/sitemap.xml
+Sitemap: https://weihao-cui.com/sitemap.xml
