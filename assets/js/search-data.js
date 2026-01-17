@@ -70,12 +70,10 @@ ninja.data = [{
           section: "News",},{id: "news-honored-to-be-selected-for-the-ccf-doctoral-dissertation-incentive-program-2025",
           title: 'Honored to be selected for the CCF Doctoral Dissertation Incentive Program 2025.',
           description: "",
-          section: "News",},{id: "news-pd-mux",
-          title: 'Pd Mux',
+          section: "News",},{id: "news-pd-multiplexing-has-been-accepted-by-asplos-2026",
+          title: 'PD-Multiplexing has been accepted by ASPLOS 2026.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2026-01-17-pd-mux/";
-            },},{id: "projects-gpu-dissecting",
+          section: "News",},{id: "projects-gpu-dissecting",
           title: 'GPU Dissecting',
           description: "Dissecting GPU architectures to understand the links between hardware and software",
           section: "Projects",handler: () => {
